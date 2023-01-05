@@ -1,12 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.Home-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Images/HomeImage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home-container {
+  padding: 0 7%;
+}
+.home-container h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 22%;
+}
+/* .search-image{
+    width: 25px;
+    height: 25px;
+
+} */
+.search-bar {
+  background: #fff;
+  width: 70%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+}
+.search-bar form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-bar form input {
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.search-bar form button {
+  background: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.search-bar form button img {
+  width: 25px;
+  margin-top: 7px;
+}
+.location-input {
+  flex: 1;
+}
+.search-bar form label {
+  font-weight: 600;
+}
+/* exclusive page  */
+.sub-title {
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+}
+.luxury-places {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.luxury-places div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.luxury-places div{
+    position: relative;
+}
+.luxury-places div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
 
 }
-.Home-header{
-    min-height: 100vh;
-width: 100%;
-background-image: linear-gradient (rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+/* favorite places */
+.favorite-places{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+
 }
+.favorite-places div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .favorite-places h3{
+      font-weight: 600;
+      margin-top: 10px;
+      text-align: center;
+  }
