@@ -9,6 +9,11 @@ import favorite2 from "../Images/favorite2.jfif";
 import favorite3 from "../Images/favorite3.jfif";
 import favorite4 from "../Images/favorite4.jfif";
 import favorite5 from "../Images/favorite5.jfif";
+import Baalbek from "../Images/Baalbek.jpg";
+import Beirut from "../Images/Beirut.jpg";
+import Tyre from "../Images/Tyre.jpg";
+import Jounieh from "../Images/Jounieh.jpg";
+import Batroun from "../Images/Batroun.jfif";
 import "./Home.css";
 
 function Home() {
@@ -80,24 +85,24 @@ function Home() {
       <h2 className="sub-title">Favorite Places</h2>
       <div className="favorite-places">
         <div>
-          <img src={favorite1} />
-          <h3>Byblos</h3>
+          <img src={Baalbek} />
+          <h3>Baalbek</h3>
         </div>
         <div>
-          <img src={favorite2} />
-          <h3>Byblos</h3>
+          <img src={Beirut} />
+          <h3>Beirut</h3>
         </div>
         <div>
-          <img src={favorite3} />
-          <h3>Byblos</h3>
+          <img src={Jounieh} />
+          <h3>Jounieh</h3>
         </div>
         <div>
-          <img src={favorite4} />
-          <h3>Byblos</h3>
+          <img src={Tyre} />
+          <h3>Tyre</h3>
         </div>
         <div>
-          <img src={favorite5} />
-          <h3>Byblos</h3>
+          <img src={Batroun} />
+          <h3>Batroun</h3>
         </div>
       </div>
     </div>
