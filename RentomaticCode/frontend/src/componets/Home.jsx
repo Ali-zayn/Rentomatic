@@ -105,6 +105,11 @@ function Home() {
           <h3>Batroun</h3>
         </div>
       </div>
+      <div className="explore">
+        <h3>Explore amazing places</h3>
+        <p>Great opportunity to explore more places in city of your choice</p>
+        <a href="#" className="explore-btn">Explore more</a>
+      </div>
     </div>
   );
 }
