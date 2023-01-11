@@ -1,0 +1,12 @@
+.estates-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.estates{
+    flex-basis: 70%;
+}
+.filter-estates{
+    flex-basis: 25%;
+}

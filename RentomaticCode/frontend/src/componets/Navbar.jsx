@@ -12,12 +12,14 @@ function Navbar() {
       <img src={RentomaticLogo} className="logo" />
       <ul class="nav-links">
         <li>
-        <Link to={`/MyEstates`} Link style={{ textDecoration: "none" }}>
-          <a href="#">Popular Places</a>
+        <Link to={`/`} Link style={{ textDecoration: "none" }}>
+          <a href="#">Home</a>
           </Link>
         </li>
         <li>
-          <a href="#">Travel Outside</a>
+        <Link to={`/Estates`} Link style={{ textDecoration: "none" }}>
+          <a href="#">Estates</a>
+          </Link>
         </li>
         <li>
           <a href="#">Online Packages</a>
