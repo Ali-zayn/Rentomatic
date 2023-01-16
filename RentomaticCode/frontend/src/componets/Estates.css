@@ -73,3 +73,21 @@
     color: #555;
     margin-bottom: 10px;
 }
+  /* responsive */
+  @media only screen and (max-width: 700px) {
+    .estates-container{
+        margin-top: 150px;
+    }
+    .estates, .filter-estates, .estate-img, .estate-info{
+        flex-basis: 100%;
+    }
+    .estates h1{
+        font-size: 22px;
+    }
+    .estate-info h3{
+        font-size: 18px;
+    }
+    .estate-info i{
+        font-size: 16px;
+    }
+  }

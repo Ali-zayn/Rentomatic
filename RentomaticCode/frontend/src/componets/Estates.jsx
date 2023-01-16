@@ -177,7 +177,7 @@ function Estates() {
             <h2>Select Filters</h2>
             <h3>Property Type</h3>
             <div className="filters-selects">
-              <select className="trans_select">
+              <select className="option_select">
                 <option>Type</option>
                 <option>Apartment</option>
                 <option>Studio</option>
@@ -210,6 +210,10 @@ function Estates() {
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
               </select>
             </div>
             <div className="filters-selects">
