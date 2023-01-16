@@ -172,7 +172,57 @@ function Estates() {
             </div>
           </div>
         </div>
-        <div className="filter-estates"></div>
+        <div className="filter-estates">
+          <div className="filter-estates-sideBar">
+            <h2>Select Filters</h2>
+            <h3>Property Type</h3>
+            <div className="filters-selects">
+              <select className="trans_select">
+                <option>Type</option>
+                <option>Apartment</option>
+                <option>Studio</option>
+                <option>office</option>
+                <option>Villa</option>
+              </select>
+            </div>
+            <div className="filters-selects">
+              <select className="trans_select">
+                <option>Rent Period</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+                <option>Yearly</option>
+              </select>
+            </div>
+            <div className="filters-selects">
+              <select className="trans_select">
+                <option>Rent Frequency</option>
+                <option>Below 100$</option>
+                <option>Below 500$</option>
+                <option>Below 1000$</option>
+                <option>Above 1000$</option>
+              </select>
+            </div>
+            <div className="filters-selects">
+              <select className="trans_select">
+                <option>Rooms</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+            <div className="filters-selects">
+              <select className="trans_select">
+                <option>Bathrooms</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
