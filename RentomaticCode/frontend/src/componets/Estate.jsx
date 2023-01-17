@@ -67,7 +67,23 @@ function Estate() {
             <p>2 guests &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathrooms</p>
             <h4>$ 100 / day</h4>
         </div>
-        <hr className="line"></hr>
+        <hr className="line" />
+        <form className="check-form">
+            <div>
+                <label>Check-in</label>
+                <input type="text" placeholder="Add Date" />
+            </div>
+            <div>
+                <label>Check-out</label>
+                <input type="text" placeholder="Add Date" />
+            </div>
+            <div className="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 Guests" />
+            </div>
+            <button type="submit">Check Availability</button>
+
+        </form>
       </div>
       <Footer />
     </div>
