@@ -22,7 +22,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#">Online Packages</a>
+        <Link to={`/Estate`} Link style={{ textDecoration: "none" }}>
+          <a href="#">Estate</a>
+          </Link>
         </li>
       </ul>
       <a href="#" className="register-btn">
