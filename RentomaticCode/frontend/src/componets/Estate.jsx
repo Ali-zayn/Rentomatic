@@ -2,6 +2,10 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "./Estate.css";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
+import {AiOutlineHome, AiOutlineHeart } from "react-icons/ai";
+import {GiVacuumCleaner } from "react-icons/gi";
+import {CiLocationOn } from "react-icons/ci";
+
 import favorite1 from "../Images/favorite1.jfif";
 import favorite2 from "../Images/favorite2.jfif";
 import favorite3 from "../Images/favorite3.jfif";
@@ -85,19 +89,20 @@ function Estate() {
 
         </form>
         <ul className="details-list">
-          <li>Entire Home
+          <li><i><AiOutlineHome /></i>Entire Home
             <span>You will have the entire flat for you.</span>
           </li>
-          <li>Enhanced Clean
+          <li><i><GiVacuumCleaner /></i>Enhanced Clean
             <span>This host has committed to high cleaning process.</span>
           </li>
-          <li>Great location
+          <li><i><CiLocationOn /></i>Great location
             <span>90% of recent guests gave the location a 5 stars rating.</span>
           </li>
-          <li>Great Check-in Experience
+          <li><i><AiOutlineHeart /></i>Great Check-in Experience
             <span>100% of recent guests gave the Check-in Experience a 5 stars rating</span>
           </li>
         </ul>
+        <hr className="line" />
       </div>
       <Footer />
     </div>
