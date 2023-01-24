@@ -11,6 +11,7 @@ import favorite2 from "../Images/favorite2.jfif";
 import favorite3 from "../Images/favorite3.jfif";
 import favorite4 from "../Images/favorite4.jfif";
 import favorite5 from "../Images/favorite5.jfif";
+import host1 from "../Images/host1.jfif";
 
 function Estate() {
   return (
@@ -147,7 +148,14 @@ function Estate() {
           <b>Downtown, Beirut, Lebanon</b>
           <p>It's like home away from home</p>
           <hr className="line" />
+          <div className="property-host">
+          <img src={host1} />
+          <div> <h2>Hosted by Ralph</h2>
+          <p>245 reviews &nbsp; &nbsp; Response rate: 100% &nbsp; &nbsp; Response time: 1 hour </p></div>
+
+          </div>
         </div>
+        <a className="contact-host">Contact Host</a>
       </div>
       <Footer />
     </div>
