@@ -84,6 +84,20 @@ function Estate() {
             <button type="submit">Check Availability</button>
 
         </form>
+        <ul className="details-list">
+          <li>Entire Home
+            <span>You will have the entire flat for you.</span>
+          </li>
+          <li>Enhanced Clean
+            <span>This host has committed to high cleaning process.</span>
+          </li>
+          <li>Great location
+            <span>90% of recent guests gave the location a 5 stars rating.</span>
+          </li>
+          <li>Great Check-in Experience
+            <span>100% of recent guests gave the Check-in Experience a 5 stars rating</span>
+          </li>
+        </ul>
       </div>
       <Footer />
     </div>
